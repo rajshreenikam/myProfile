@@ -6,48 +6,54 @@
         Other
     </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-</head>
-
-<body>
-    <h3 style="text-align:center;background-color:#04AA6D;color: white;"> <strong>My Gallery</strong></h3>
-    <hr>
     <style>
         img {
-            border: 2px
+            border: 2px;
+            margin-left: 2%;
+            height: 200px;
+            width:200px;
         }
-
         summary {
             text-align: center;
-            background-color: #04AA6D;
-            width: fit-content;
+            background-color: cadetblue;;
+            width:20%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        b{
+            margin-left: 10%;
+        }
+        embed{
+            height: 200px;
+            width:200px;
+            margin-left: 3%;
+        }
+        audio{
+            
+            margin-left: 3%;
+        }
+        h3{
+            text-align:center;
+            background-color:cadetblue;
+            color: white;
+            width:250px;  
             margin-left: auto;
             margin-right: auto;
         }
     </style>
-    </head>
+</head>
 
-    <body>
+<body>
+    <h3> My Gallery </h3>
+    <hr>
         <details>
             <summary style="height:20px;">My Favorite Images</summary>
             <figure>
-                <img style="height:200px;width:200px" src="F:\Angular_Workspace\Projects\Images\HTML.jpg"
-                    alt="Tags in HTML">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <img style="height:200px;width:200px" src="F:\Angular_Workspace\Projects\Images\htmlbasics.jpg"
-                    alt="HTML Basics">&nbsp;&nbsp;&nbsp;&nbsp;
-                <img style="height:200px;width:200px" src="F:\Angular_Workspace\Projects\Images\a1.jpg"
-                    alt="Angular Features">&nbsp;&nbsp;&nbsp;&nbsp;
-                <img style="height:200px;width:200px" src="F:\Angular_Workspace\Projects\Images\a3.png"
-                    alt="Angular Details">
-                <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; <b>Tags in HTML
-                    &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-                    HTML Basics &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    Angular Architecture &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-                    Angular Features</b>
+                <img   src="resources/HTML.jpg" alt="Tags in HTML"> 
+                <img   src="resources/htmlbasics.jpg" alt="HTML Basics"> 
+                <img   src="resources/a1.jpg" alt="Angular Features"> 
+                <img   src="resources/a3.png"alt="Angular Details">
+                <br><br>   <b>Tags in HTML</b><b> HTML Basics</b> <b>  Angular Architecture</b><b>  Angular Features</b>
             </figure>
         </details>
 
@@ -55,40 +61,27 @@
 
         <details>
             <summary style="height:20px;">My Favorite Videos</summary>
-            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <embed style="height:200px;width:200px" src="https://www.youtube.com/embed/zJwbZX4i-N4" height="200px"
-                width="300px"></embed> &nbsp;&nbsp; &nbsp;&nbsp;
-            <video style="height:200px;width:200px"
-                src="F:\Angular_Workspace\Projects\Images\10. Heading tag & formatting tag.mp4" height="200px"
-                width="300px" controls autoplay muted>Sorry, browser will not support </video>&nbsp;&nbsp; &nbsp;&nbsp;
-            <video style="height:200px;width:200px" src="F:\Angular_Workspace\Projects\Images\20.Table.mp4"
-                height="200px" width="300px" controls autoplay muted>Sorry, browser will not support
-            </video>&nbsp;&nbsp; &nbsp;&nbsp;
-            <embed style="height:200px;width:200px" src="https://www.youtube.com/embed/HcOc7P5BMi4" height="200px"
-                width="300px"></embed>
-            <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &nbsp;&nbsp; <b>Tags in HTML &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
-                HTML Heading tag &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                HTML Table tag &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
-                All HTML tags</b>
+            <br> 
+            <embed src="https://www.youtube.com/embed/zJwbZX4i-N4" ></embed>  
+            <embed src="https://www.youtube.com/embed/BsDoLVMnmZs"> </embed> 
+            <embed src="https://www.youtube.com/embed/HcOc7P5BMi4"> </embed> 
+            <embed src="https://www.youtube.com/embed/HcOc7P5BMi4"></embed>
+            <br><br>   <b>Tags in HTML</b><b> HTML Heading tag</b> <b>HTML Table tag</b> <b>  All HTML tags</b>
         </details>
 
         <hr>
 
         <details>
-            <summary style="height:20px;">My Favorite Audios</summary> <br>
+            <summary>My Favorite Audios</summary> <br>
             <audio style="width:200px" src="F:\Angular_Workspace\Projects\Images\Teri Galliyan.mp3" controls
                 autoplay>Sorry, browser will not support </audio>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           
             <audio style="width:200px" src="F:\Angular_Workspace\Projects\Images\Teri Galliyan.mp3" controls autoplay
                 muted>Sorry, browser will not support </audio>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <audio style="width:200px" src="F:\Angular_Workspace\Projects\Images\Teri Galliyan.mp3" controls autoplay
                 muted>Sorry, browser will not support </audio>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            
             <audio style="width:200px" src="F:\Angular_Workspace\Projects\Images\Teri Galliyan.mp3" controls autoplay
                 muted>Sorry, browser will not support </audio>
         </details>

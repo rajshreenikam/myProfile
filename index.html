@@ -17,17 +17,22 @@
             font-size: 20px;
         }
 
-        a {
-            color: white;
+        a{
+            color:white;
             font-weight: bold;
+            margin-left: 5%;
+            text-decoration: none;
+            border-radius: 10%; 
+            padding:10px ;
+    
         }
 
-        p {
+        p{
             width: 100%;
             text-align: right;
         }
 
-        span.text {
+        span.text{
             display: block;
             font-family: Tahoma;
             font-weight: bold;
@@ -36,14 +41,21 @@
             text-align: center;
 
         }
-
-        body {
+        body{
             background-color: rgb(243, 243, 235);
         }
         .icon{
             border:1px solid;
             padding:10px;
         }
+        .frame{
+            margin-left: 12%;
+        }
+        b{
+            font-size:15px;
+            margin-left: 0.5%;   
+        }
+       
     </style>
 </head>
 
@@ -52,50 +64,36 @@
     <header>
         <div>
             <p>
-                <!--This is header section-->
-                <b style="text-align:left">MY PROFILE</b>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;
+                <!--This is header section-->    
                 <!--This is font awesome icon-->
                 <span class="icon">
-                <i class="fa fa-user fasize" aria-hidden="true" style="font-size:20px;color:blue"></i>&nbsp; 
-                <b style="font-size:15px">Rajshree S. Nikam &nbsp; &nbsp; &nbsp;|</b> &nbsp;
-                <i class="fa fa-envelope fasize" aria-hidden="true" style="font-size:20px;color:coral"></i>&nbsp; &nbsp;
-                <b style="font-size:15px;">rajshree.nikam30@gmail.com &nbsp; &nbsp;|</b> &nbsp;&nbsp;
-                <i class="fa fa-mobile fasize" aria-hidden="true" style="font-size:20px;color:rgb(191, 109, 109)"></i>&nbsp; 
-                <b style=" font-size:15px">9766 247 923</b>
+                <i class="fa fa-user fasize" aria-hidden="true" style="font-size:20px;color:blue;"></i>
+                <b>Rajshree S. Nikam &nbsp; |</b>  
+                <i class="fa fa-envelope fasize" aria-hidden="true" style="font-size:20px;color:coral;margin-left: 1%;"></i> 
+                <b>rajshree.nikam30@gmail.com |</b>  
+                <i class="fa fa-mobile fasize" aria-hidden="true" style="font-size:20px;color:rgb(191, 109, 109);margin-left: 1%;"></i>  
+                <b>9766 247 923</b>
                 </span>
             </p>
         </div>
     </header>
     <hr>
-
-    <nav style="background-color:#04AA6D">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="home.html" target="home">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="techStack.html" target="home">TECH STACK</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="education.html" target="home">EDUCATION</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="project.html" target="home">PROJECTS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="hobbies.html" target="home">HOBBIES</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="personalDetails.html" target="home">PERSONAL DETAILS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="others.html" target="home">OTHERS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <!-- This is navigation bar -->
+    <nav style="padding: 10px;  background-color: cadetblue;">
+         
+        <a href="home.html" target="myframe">HOME</a>  
+        <a href="techStack.html" target="myframe">TECH STACK</a> 
+        <a href="education.html" target="myframe">EDUCATION</a> 
+        <a href="project.html" target="myframe">PROJECTS</a> 
+        <a href="hobbies.html" target="myframe">HOBBIES</a> 
+        <a href="personalDetails.html" target="myframe">PERSONAL DETAILS</a> 
+        <a href="others.html" target="myframe">OTHERS</a> 
     </nav>
     <hr>
-    <div>
-        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <iframe width="1000px" height="500px" name="home" style="border:none" src="home.html"></iframe>
+    <div  class="frame">
+        <iframe width="1000px" height="500px" name="myframe" style="border:none" src="home.html"></iframe>
     </div>
+    <!-- This is footer section -->
     <footer>
         <span class="text" style="background-color: #ddeae5;">Follow me : &nbsp;&nbsp;&nbsp;&nbsp;
             <i class="fa fa-twitter-square" aria-hidden="true" style="color: deepskyblue"></i>&nbsp;&nbsp;<b>|</b>&nbsp;&nbsp;
