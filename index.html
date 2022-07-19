@@ -8,7 +8,10 @@
     <!--CDN link for font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="F:\Angular_Workspace\Projects\MyProfile\resources\myphoto.jpg">
-    <style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+   <style>
         iframe {
             background-color: antiquewhite;
         }
@@ -24,9 +27,10 @@
             text-decoration: none;
             border-radius: 10%; 
             padding:10px ;
-    
         }
-
+         nav a:hover{
+            background-color:rgb(19, 64, 200);
+         }
         p{
             width: 100%;
             text-align: right;
@@ -79,7 +83,7 @@
     </header>
     <hr>
       <!-- This is navigation bar -->
-    <nav style="padding: 10px;  background-color: cadetblue;">
+    <nav style="padding: 10px;  background-color:rgb(53, 125, 159);font-family: 'Roboto', sans-serif;text-shadow: 5px 5px 2px black;">
          
         <a href="home.html" target="myframe">HOME</a>  
         <a href="techStack.html" target="myframe">TECH STACK</a> 
@@ -91,16 +95,15 @@
     </nav>
     <hr>
     <div  class="frame">
-        <iframe width="1000px" height="500px" name="myframe" style="border:none" src="home.html"></iframe>
+        <iframe width="1000px" height="483.5px" name="myframe" style="border:1px solid;border-radius: 3%;" src="home.html"></iframe>
     </div>
     <!-- This is footer section -->
     <footer>
         <span class="text" style="background-color: #ddeae5;">Follow me : &nbsp;&nbsp;&nbsp;&nbsp;
-            <i class="fa fa-twitter-square" aria-hidden="true" style="color: deepskyblue"></i>&nbsp;&nbsp;<b>|</b>&nbsp;&nbsp;
-            <i class="fa fa-linkedin" aria-hidden="true" style="color: rgb(30, 0, 255)"></i>&nbsp;&nbsp;<b>|</b>&nbsp;&nbsp;
-            <i class="fa fa-facebook-square" aria-hidden="true"
-                style="color: rgb(59, 124, 228)"></i>&nbsp;&nbsp;<b>|</b>&nbsp;&nbsp;
-            <i class="fa fa-instagram" aria-hidden="true" style="color: rgb(255, 0, 234)"></i>
+            <i class="fa fa-twitter-square" aria-hidden="true" style="color: deepskyblue;font-size: 135%;"></i>&nbsp;&nbsp;<b>|</b>&nbsp;&nbsp;
+            <i class="fa fa-linkedin" aria-hidden="true" style="color: rgb(30, 0, 255);font-size: 135%;"></i>&nbsp;&nbsp;<b>|</b>&nbsp;&nbsp;
+            <i class="fa fa-facebook-square" aria-hidden="true" style="color: rgb(59, 124, 228);font-size: 135%;"></i>&nbsp;&nbsp;<b>|</b>&nbsp;&nbsp;
+            <i class="fa fa-instagram" aria-hidden="true" style="color: rgb(255, 0, 234);font-size: 135%;"></i>
         </span>
     </footer>
 </body>
